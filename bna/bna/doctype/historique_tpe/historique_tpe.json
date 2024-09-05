@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-04 10:18:34.069119",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "historique_agence",
+  "historique_nom_client",
+  "historique_nom_tpe",
+  "historique_numero_serie_tpe",
+  "historique_numero_sim",
+  "historique_model_tpe",
+  "column_break_fncf",
+  "historique_etat_tpe",
+  "historique_date_reception_dre",
+  "historique_action_dre_tpe",
+  "historique_date_transmission_dipm",
+  "historique_date_retour_dipm",
+  "historique_nature_reparation_tpe",
+  "historique_date_retour_agence"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_fncf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "historique_agence",
+   "fieldtype": "Select",
+   "label": "Agence",
+   "options": "\n631\n632\n639\n640\n641\n644\n645\n646\n649\n650\n651\nAnnul\u00e9"
+  },
+  {
+   "fieldname": "historique_nom_client",
+   "fieldtype": "Data",
+   "label": "Nom du Client"
+  },
+  {
+   "fieldname": "historique_nom_tpe",
+   "fieldtype": "Data",
+   "label": "Nom du TPE"
+  },
+  {
+   "fieldname": "historique_numero_serie_tpe",
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro de s\u00e9rie"
+  },
+  {
+   "fieldname": "historique_numero_sim",
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro SIM"
+  },
+  {
+   "fieldname": "historique_model_tpe",
+   "fieldtype": "Select",
+   "label": "Model",
+   "options": "\nSpire SPw70\nCastles V3"
+  },
+  {
+   "fieldname": "historique_etat_tpe",
+   "fieldtype": "Select",
+   "label": "\u00c9tat TPE",
+   "options": "Fonctionnel\nEn panne\nAnnul\u00e9"
+  },
+  {
+   "fieldname": "historique_date_reception_dre",
+   "fieldtype": "Date",
+   "label": "Date de r\u00e9ception DRE"
+  },
+  {
+   "fieldname": "historique_action_dre_tpe",
+   "fieldtype": "Select",
+   "label": "Action",
+   "options": "R\u00e9par\u00e9 \u00e0 la dre\nTransmis \u00e0 DIPM"
+  },
+  {
+   "fieldname": "historique_date_transmission_dipm",
+   "fieldtype": "Date",
+   "label": "Date de transmission DIPM"
+  },
+  {
+   "fieldname": "historique_date_retour_dipm",
+   "fieldtype": "Date",
+   "label": "Date de retour DIPM"
+  },
+  {
+   "fieldname": "historique_nature_reparation_tpe",
+   "fieldtype": "Select",
+   "label": "Nature de la r\u00e9paration",
+   "options": "R\u00e9parer\nRemplacer\nChangement d'op\u00e9rateur"
+  },
+  {
+   "fieldname": "historique_date_retour_agence",
+   "fieldtype": "Date",
+   "label": "Date de retour Agence"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-04 10:20:50.334927",
+ "modified_by": "Administrator",
+ "module": "BNA",
+ "name": "Historique TPE",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
